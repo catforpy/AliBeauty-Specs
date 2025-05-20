@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'AliBeauty-Specs'
+  s.name             = 'AliBeautySDK'
   s.version          = '1.0.0'  # 版本号，首次发布建议从 1.0.0 开始
   s.summary          = '阿里云直播推流与美颜 SDK 集成'
   s.description      = <<-DESC
@@ -8,9 +8,10 @@ Pod::Spec.new do |s|
                        提供直播推流、美颜滤镜等功能。
                        DESC
   s.homepage         = 'https://github.com/catforpy/MyFrameworks.git'
-  s.license          = { :type => 'MIT', :file => './LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'catforpy' => '815209544@qq.com' }  # 使用你的 GitHub 用户名和邮箱
   s.source           = { :git => 'git@github.com:catforpy/MyFrameworks.git', :tag => s.version.to_s }
+
 
   
   s.ios.deployment_target = '12.0'
