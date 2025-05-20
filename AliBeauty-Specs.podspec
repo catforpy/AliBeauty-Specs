@@ -26,6 +26,8 @@ Pod::Spec.new do |s|
   # 禁止构建模拟器（仅保留真机架构）
   # 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',  # 排除所有模拟器架构
   # 'ARCHS[sdk=iphoneos*]' => 'arm64'                        # 强制使用真机架构
+  # 允许自动检测架构（模拟器和真机）
+    'ARCHS' => '-arch arm64 -arch x86_64',  # 通用架构配置
 }
 
   # 如果有依赖库，添加在这里
