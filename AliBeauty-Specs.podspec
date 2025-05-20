@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
   # 'IPHONEOS_DEPLOYMENT_TARGET' => '12.0',  # 实际编译目标
   # 禁止构建模拟器（仅保留真机架构）
-  # 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',  # 排除所有模拟器架构
+  'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64 x86_64',  # 排除所有模拟器架构
   'ARCHS[sdk=iphoneos*]' => 'arm64'                        # 强制使用真机架构
 }
 
