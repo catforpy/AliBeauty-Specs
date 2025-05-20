@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'AliBeauty-specs'
+  s.name             = 'AliBeauty-Specs'
   s.version          = '1.0.0'  # 版本号，首次发布建议从 1.0.0 开始
   s.summary          = '阿里云直播推流与美颜 SDK 集成'
   s.description      = <<-DESC
