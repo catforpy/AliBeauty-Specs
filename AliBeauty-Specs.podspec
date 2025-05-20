@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                        提供直播推流、美颜滤镜等功能。
                        DESC
   s.homepage         = 'https://github.com/catforpy/MyFrameworks.git'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => './LICENSE' }
   s.author           = { 'catforpy' => '815209544@qq.com' }  # 使用你的 GitHub 用户名和邮箱
   s.source           = { :git => 'git@github.com:catforpy/MyFrameworks.git', :tag => s.version.to_s }
 
